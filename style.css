@@ -12,11 +12,6 @@ body::-webkit-scrollbar{
     display: flex;
     width: 100%;
 }
-/* main{
-    flex-grow:1;
-    padding: 20px;
-    background-color: #f0f0f0;
-} */
 header {
     display: flex;
     justify-content: space-between;
@@ -538,12 +533,13 @@ footer{
 .player-column{
     display: flex;
     flex-direction: column;
+    margin-left: -60px;
 }
 
 .player-info{
     display: flex;
     align-items: center;
-    margin-left: 150px;
+    margin-left: 135px;
 }
 
 .player-cover{
