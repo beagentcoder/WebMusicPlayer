@@ -145,7 +145,11 @@ main {
 .artist-header img {
     width: 300px;
     border-radius: 10px;
+    transition: transform 0.5s ease;
 
+}
+.artist-header img:hover{
+    transform: scale(1.1);
 }
 
 .artist-details {
@@ -227,8 +231,11 @@ main {
     height: 100px;
     border-radius: 20%;
     margin-right: 20px;
+    transition: transform 0.5s ease;
 }
-
+.queue-item img:hover{
+    transform: scale(1.1);
+}
 .queue-details {
     flex-grow: 1;
 
@@ -280,6 +287,10 @@ main {
     height: 60px;
     border-radius: 50%;
     margin-right: 15px;
+    transition: transform 0.5s ease;
+}
+.artist-card img:hover{
+    transform: scale(1.5);
 }
 
 .artist-details p {
@@ -337,6 +348,10 @@ main {
     border-radius: 5px;
     margin-right: 10px;
     margin-left: 30px;
+    transition: transform 0.5s ease;
+}
+.recently-played-item img:hover{
+    transform: scale(1.5);
 }
 .song-details{
     color: #fff;
